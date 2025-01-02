@@ -1,0 +1,7 @@
+{
+    "css.validate": false,
+    "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)", // Tailwind classes in template strings
+      "tw\\.\\w+`([^`]*)" // Tailwind classes in styled-components
+    ]
+  }

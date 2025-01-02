@@ -1,0 +1,29 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  directory = "netlify/functions"
+  included_files = ["netlify/functions/**"]
+
+[[redirects]]
+  # Redirección para funciones de Netlify
+  from = "/.netlify/functions/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  # Redirección para todas las demás rutas (Single Page Application)
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  # Configuración de encabezados CORS para las funciones
+  for = "/.netlify/functions/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"
+    Cache-Control = "no-cache"

@@ -1,0 +1,56 @@
+.activity-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111928;
+    border-radius: 10px;
+  }
+  
+  .activity-container h2 {
+    color: #38bdf8; /* Similar al azul del sitio */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .activity-container p {
+    color: #e5e7eb;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .activity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .activity-card {
+    background-color: #1e293b; /* Color oscuro para las tarjetas */
+    border: 1px solid #334155; /* Línea sutil */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .activity-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .activity-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .activity-info h3 {
+    color: #f1f5f9; /* Blanco suave */
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .activity-info .completed-on {
+    color: #94a3b8; /* Gris claro */
+    font-size: 14px;
+  }
