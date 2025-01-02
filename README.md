@@ -16,7 +16,6 @@ This repository contains the source code for my personal portfolio, showcasing m
   - **About Me**: Overview of my professional background and mission.
   - **Experience**: Timeline of my career, roles, and achievements.
   - **Skills**: Technologies and tools I work with, categorized for clarity.
-  - **HTB AR Community**: My contributions to building the HackTheBox Argentina community.
   - **Certifications**: My professional certifications and recognitions.
   - **Contact Form**: Users can reach out via a secure form.
 - **HackTheBox Machines**: An interactive carousel displaying completed HackTheBox challenges.
