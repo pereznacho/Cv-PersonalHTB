@@ -76,6 +76,7 @@ To run this project locally, follow these steps:
 
 ### Prerequisites
 
+- Put your HTB profile in public mode
 - Node.js (v16 or higher)
 - npm or yarn
 
